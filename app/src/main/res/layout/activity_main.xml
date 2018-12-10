@@ -1,0 +1,91 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/main_drawerLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在线音乐"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+    </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+       >
+
+   <EditText
+       android:id="@+id/main_et"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_alignParentLeft="true"
+       android:layout_marginLeft="20dp"
+       android:hint="请输入歌手名"
+       android:inputType="text"
+       />
+        <Button
+            android:id="@+id/main_bt"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/main_et"
+            android:layout_marginLeft="5dp"
+            android:text="搜全网"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="60dp"
+            android:id="@+id/main_RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+    <!--定义菜单界面(NavigationView)重点是要定义滑动的方向-->
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="你好"
+        android:layout_gravity="start"/>-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/main_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header"
+        android:layout_gravity="start"
+        />
+
+
+</android.support.v4.widget.DrawerLayout>

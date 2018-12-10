@@ -1,0 +1,26 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="@color/light_blue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_header_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/idimage"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/nav_header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEI"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        />
+    
+    
+</RelativeLayout>

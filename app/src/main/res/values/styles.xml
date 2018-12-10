@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--表示设置程序主体颜色为淡色,陪衬颜色为深色-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- 程序标题栏的颜色-->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <!--- 系统标题栏的颜色-->
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--- 被选中时的颜色-->
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <color name="colorPrimary">#E066FF</color>
+    <color name="colorPrimaryDark">#E066FF</color>
+    <color name="colorAccent">#836FFF</color>
+    <color name="light_blue">#AEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#0f9fdd</color>
+    <color name="pink">#ff9fdd</color>
+    <color name="grey">#ae90dd</color>
+    <color name="green">#10978d</color>
+    <color name="light_grey">#acb0dd</color>
+    <color name="white">#ffffff</color>
+    <color name="huise">#9FB6CD</color>
+</resources>

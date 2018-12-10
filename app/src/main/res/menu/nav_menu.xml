@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/gongneng1"
+            android:title="功能1"/>
+        <item android:id="@+id/gongneng2"
+            android:title="功能2"/>
+        <item android:id="@+id/gongneng3"
+            android:title="功能3"/>
+        <item android:id="@+id/gongneng4"
+            android:title="新闻功能"/>
+        <item android:id="@+id/gongneng5"
+            android:title="功能5"/>
+        <item android:id="@+id/nav_back"
+            android:title="退出程序"/>
+    </group>
+</menu>
